@@ -2,11 +2,13 @@
 
 # DeepSeekDesign
 
-[简体中文](README.md) · [Download v1.0.0](https://github.com/utiwaaaaaien/DeepSeekDesign/releases/tag/v1.0.0)
+[简体中文](README.md) · [Community discussion](https://github.com/deepseek-ai/deepseek-harness/discussions/14093) · [Download v1.0.0](https://github.com/utiwaaaaaien/DeepSeekDesign/releases/tag/v1.0.0)
 
 DeepSeekDesign is a code animation workbench for DeepSeek Harness. Describe an animation in the native conversation, combine the generated video with your own media on a timeline, and export the edit.
 
 DeepSeekDesign is an unofficial plugin developed and maintained independently by the community.
+
+![DeepSeekDesign workbench with a particle animation preview, video track, audio waveform, and the active conversation](https://github.com/user-attachments/assets/71a9fe05-3e89-4803-b535-e94d335177bc)
 
 ## Installation
 
@@ -27,9 +29,17 @@ dsh web
 - **Edit on a timeline.** Import audio and video and drag clips onto tracks to move, trim, or split them. Export to MP4 or WebM according to browser support.
 - **Manage projects.** Each Harness workspace can hold multiple projects. Projects save automatically and can be imported, exported, or restored from recent local backups.
 
+## Try it
+
+> Create a five-second 16:9 animation. On a dark blue grid, move three lights along different elliptical paths. Draw it with JavaScript and Canvas, then use DeepSeekDesign to render it to a video in the asset library.
+
 ## Compatibility
 
 Tested with the DeepSeek Harness 0.2.2-rc.5 Web UI and Chrome on macOS (Apple Silicon). Rendering requires browser support for OffscreenCanvas, ImageBitmap, MediaRecorder, and canvas capture. Generated Canvas animations are silent. You can add audio on the timeline. The plugin reads conversation media and is intended for local, single-user use.
+
+## Feedback
+
+For installation, import, or export problems, open an [issue](https://github.com/utiwaaaaaien/DeepSeekDesign/issues) with your Harness version, operating system, browser, and reproduction steps. You can also share feedback in the [community discussion](https://github.com/deepseek-ai/deepseek-harness/discussions/14093).
 
 ## Development
 
