@@ -2,11 +2,13 @@
 
 # DeepSeekDesign
 
-[English](README.en.md) · [下载 v1.0.0](https://github.com/utiwaaaaaien/DeepSeekDesign/releases/tag/v1.0.0)
+[English](README.en.md) · [社区介绍与讨论](https://github.com/deepseek-ai/deepseek-harness/discussions/14093) · [下载 v1.0.0](https://github.com/utiwaaaaaien/DeepSeekDesign/releases/tag/v1.0.0)
 
 DeepSeekDesign 是一个为 DeepSeek Harness 制作的代码动画工作台。你可以在原生会话中描述想要的动画，把生成的视频和自己的素材拖上时间线，剪辑后导出成片。
 
 这是一个由社区独立开发和维护的非官方插件。
+
+![DeepSeekDesign 工作台，展示粒子动画预览、视频轨、音频波形和当前会话](https://github.com/user-attachments/assets/71a9fe05-3e89-4803-b535-e94d335177bc)
 
 ## 安装
 
@@ -27,9 +29,17 @@ dsh web
 - **编辑时间线**。导入音视频，把素材拖到轨道上，移动、修剪或拆分片段。成片可按浏览器支持的格式导出为 MP4 或 WebM。
 - **管理项目**。每个 Harness 工作区可以保存多个项目。项目会自动保存，并支持导入、导出和恢复近期的本地备份。
 
+## 试用示例
+
+> 做一段 5 秒、16:9 的代码动画。深蓝网格背景上，三个亮点沿不同的椭圆轨道移动。请用 JavaScript 绘制 Canvas 动画，再用 DeepSeekDesign 渲染成视频并放进素材库。
+
 ## 兼容性
 
-已在 macOS（Apple Silicon）上的 DeepSeek Harness 0.2.2-rc.5 Web 界面与 Chrome 实测。视频渲染依赖浏览器对 OffscreenCanvas、ImageBitmap、MediaRecorder 和 Canvas 捕获的支持。代码生成的 Canvas 动画默认为静音，可在时间线加入音频。插件包含会话媒体读取功能，适用于本机单用户环境。
+已在 macOS（Apple Silicon）上的 DeepSeek Harness 0.2.2-rc.5 Web 界面与 Chrome 实测。视频渲染依赖浏览器对 OffscreenCanvas、ImageBitmap、MediaRecorder 和 Canvas 捕获的支持。插件直接渲染的 Canvas 动画为静音，可在时间线加入音频。插件包含会话媒体读取功能，适用于本机单用户环境。
+
+## 反馈
+
+如果遇到安装、导入或导出问题，请在 [Issues](https://github.com/utiwaaaaaien/DeepSeekDesign/issues) 说明 Harness 版本、系统、浏览器和复现步骤。也可以在 [社区帖子](https://github.com/deepseek-ai/deepseek-harness/discussions/14093) 反馈使用体验。
 
 ## 开发
 
