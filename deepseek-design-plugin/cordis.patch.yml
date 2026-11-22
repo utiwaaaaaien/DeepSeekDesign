@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-design-workbench
+      name: '@local/deepseek-design-workbench'
